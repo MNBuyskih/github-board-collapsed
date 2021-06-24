@@ -4,16 +4,10 @@
   "version": "1.0",
   "content_scripts": [
     {
-      "matches": [
-        "https://github.com/*/projects/*"
-      ],
+      "matches": ["https://github.com/*/projects/*"],
       "run_at": "document_end",
-      "js": [
-        "js/index.js"
-      ],
-      "css": [
-        "style.css"
-      ]
+      "js": ["js/index.js"],
+      "css": ["style.css"]
     }
   ],
   "permissions": [],
