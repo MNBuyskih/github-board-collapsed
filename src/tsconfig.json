@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "sourceRoot": "./",
+    "rootDir": "./",
+    "esModuleInterop": true,
+    "lib": ["ES2015", "DOM"],
+    "module": "ES6",
+    "moduleResolution": "node",
+    "outDir": "../dist",
+    "preserveConstEnums": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES5"
+  },
+  "exclude": ["node_modules"],
+  "include": ["types/*"],
+  "files": ["index.ts", "types/base.d.ts"]
+}

@@ -1,0 +1,57 @@
+.project-column.collapsed {
+  max-width: 40px !important;
+  min-width: 40px;
+  overflow: visible !important;
+  position: relative !important;
+  width: 40px;
+}
+
+.project-column.collapsed [id^="column-cards-"],
+.project-column.collapsed [aria-label="Add a note to this column"],
+.project-column.collapsed .js-project-column-automation-footer {
+  display: none;
+}
+
+.project-column.collapsed h3 {
+  bottom: 0;
+  display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: absolute;
+  transform: rotate(-90deg);
+  transform-origin: top left;
+  white-space: nowrap;
+}
+
+.project-column.collapsed .Counter {
+  margin: 0 !important;
+}
+
+.project-column.collapsed .Details,
+.project-column.collapsed .Details > .hide-sm.position-relative.p-sm-2 {
+  position: static !important;
+}
+
+.js-new-project-column-container {
+  flex: auto;
+  position: relative;
+}
+
+.js-new-column-button {
+  bottom: 0;
+  height: 40px;
+  margin: 0 !important;
+  min-width: 40px;
+  padding: 0 !important;
+  position: absolute;
+  transform: rotate(-90deg);
+  transform-origin: left top;
+  width: 315px;
+}
+
+.js-new-column-button .js-project-dialog-button.new-project-column {
+  height: 40px;
+  margin: 0 0 0 -40px;
+  padding-top: 0!important;
+  padding-bottom: 0!important;
+}
